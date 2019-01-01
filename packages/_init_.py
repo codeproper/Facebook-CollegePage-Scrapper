@@ -29,5 +29,5 @@ link_list,num_pages=findpages(Username,Userpass)
 ####Store the page urls in csv file####
 scrape_urls(link_list,num_pages)
 ####Open the url.csv file to begin scraping from pages and stores the result in final.csv file####
-datascrape()
+scrape_data()
 print("Its done.Check out the scrapped urls in url.csv and data in finaldata.csv!!")
