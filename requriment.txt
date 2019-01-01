@@ -1,0 +1,4 @@
+Python 3.7x
+Google chrome(latest version)
+ChromeDriver 2.45
+Selenium 2.0
