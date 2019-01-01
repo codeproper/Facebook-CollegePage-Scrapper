@@ -89,4 +89,4 @@ def login(username,password):
 print("A dummy fb id may be suitable for this purpose")
 Username=input("Enter the username:")
 Userpass=input("Enter the password:")
-login(Username,Userpass)
+login(Username,Userpass) 
