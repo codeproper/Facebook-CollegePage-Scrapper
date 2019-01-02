@@ -13,15 +13,15 @@ How to execute:
 
 3.Download latest chromedriver(in my case 2.45)
 
-4.Add chromedriver to the PATH by copying the chromedriver.exe file in /usr/bin or /usr/local/bin or change the executable path like on your own:
+4.Add chromedriver to the PATH by copying the chromedriver.exe file in /usr/bin or /usr/local/bin or change the executable path like:
     
-    browser=webdriver.Chrome(executable_path='home/Downloads/chromedriver')
+    browser=webdriver.Chrome(executable_path='pathofchromedriver')
 
 5.For headless option in Chrome
                    
     option = webdriver.ChromeOptions()
     option.add_argument("--headless")
-    browser = webdriver.Chrome(executable_path='./chromedriver',options=option)
+    browser = webdriver.Chrome(executable_path='pathofchromedriver',options=option)
 
 
 5.Clone the repo and execute _init_.py
