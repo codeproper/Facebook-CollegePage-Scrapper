@@ -17,4 +17,11 @@ How to execute:
     
     browser=webdriver.Chrome(executable_path='home/Downloads/chromedriver')
 
+5.For headless option in Chrome
+                   
+    option = webdriver.ChromeOptions()
+    option.add_argument("--headless")
+    browser = webdriver.Chrome(executable_path='./chromedriver',options=option)
+
+
 5.Clone the repo and execute _init_.py
