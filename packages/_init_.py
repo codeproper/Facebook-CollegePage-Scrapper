@@ -16,8 +16,8 @@ option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
 browser = webdriver.Chrome(executable_path='./chromedriver')
 
-####Store the page urls in csv file####
+####Store the page links in url.csv file####
 findpages()
-####Open the url.csv file to begin scraping from pages and stores the result in final.csv file####
+####Open the url.csv file to begin scraping from pages and store the result in final.csv file####
 scrape_data()
 print("Its done.Check out the scrapped urls in url.csv and data in finaldata.csv!!")
