@@ -9,7 +9,7 @@ How to execute:
     
     pip install more-itertools
     
-2.Download and install Chrome latest version.
+2.Download and install latest version of chrome browser.
 
 3.Download latest chromedriver(in my case 2.45)
 
