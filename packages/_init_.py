@@ -10,11 +10,11 @@ from more_itertools import unique_everseen
 from .datascrape import scrape_data
 from .findpages  import findpages
 
-
 ### Specifying incognito mode as you launch your browser[OPTIONAL]
 option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
-browser = webdriver.Chrome(executable_path='./chromedriver')
+option.add_argument("--headless")
+browser = webdriver.Chrome(executable_path='./chromedriver',options=option)
 
 ####Store the page links in url.csv file####
 findpages()
