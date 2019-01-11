@@ -5,6 +5,7 @@ import csv
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from more_itertools import unique_everseen
+from bs4 import BeautifulSoup
 
 ###IMPORTING SUPPORTING FILES
 from .datascrape import scrape_data
