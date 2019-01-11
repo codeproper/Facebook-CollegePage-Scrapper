@@ -1,0 +1,4 @@
+BeautifulSoup==3.2.0
+selenium==2.45.0
+more-itertools 5.0.0
+
