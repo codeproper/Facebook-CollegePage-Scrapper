@@ -1,13 +1,11 @@
-# Facebook-CollegePage-Scrapper
+# facebook-college-page-scrapper
 Using selenium webautomation tool, various informations of a facebook page is scrapped and stored in a csv file.
 
 How to execute:
 
-1.Use pip to install all the dependencies from requirment.txt
+1.Use pip to install all the dependencies from requirments.txt
     
-    pip install selenium
-    
-    pip install more-itertools
+    pip install -r requirements.txt
     
 2.Download and install latest version of chrome browser.
 
