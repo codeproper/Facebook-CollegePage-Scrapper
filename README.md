@@ -9,10 +9,6 @@ Using selenium webautomation tool, various informations of a facebook page is sc
     
 2.Download and install latest version of chrome browser.
 
+3.Open terminal on the location of cloned directory and run scrape.py
 
-
-
-
-5.Open terminal on the location of the directory and run init.py
-
-    python init.py
+    python scrape.py
