@@ -3,7 +3,8 @@ Using selenium webautomation tool, various informations of a facebook page is sc
 
 # How to execute
 
-1.Clone this repo and install all the dependencies from requirments.txt
+1.Clone this repo 
+2.Open the terminal in the same directory and install all the dependencies from requirments.txt
     
     pip install -r requirements.txt
     
