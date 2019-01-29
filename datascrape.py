@@ -30,16 +30,19 @@ def scrape_data():
                 try:
                     address_icon=soup.find("img", {"src" : "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/b1oBucHUO1S.png"})
                     address=address_icon.findNext('div').text
+                    address = address.replace("Get Directions", "")
                 except:
                     address="Not Found"
                 try:
                     like_icon=soup.find("img", {"src" : "https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/yLtEhZl0QOJ.png"})
                     like=like_icon.findNext('div').text
+                    like=like.replace("people like this", "")
                 except:
                     like="Not Found"
                 try:
                     follow_icon=soup.find("img", {"src" : "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/dsGlZIZMa30.png"})
                     follow=follow_icon.findNext('div').text
+                    like=like.replace("people follow this", "")
                 except:
                     follow="Not Found"
                 try:
