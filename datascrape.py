@@ -6,7 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
 option.add_argument("--headless")
-browser = webdriver.Chrome(executable_path='./chromedriver',options=option)
+browser = webdriver.Chrome(executable_path='/bin/chromedriver',options=option)
 
 def scrape_data():
     with open('url.csv') as csvfile:
