@@ -42,7 +42,7 @@ def scrape_data():
                 try:
                     follow_icon=soup.find("img", {"src" : "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/dsGlZIZMa30.png"})
                     follow=follow_icon.findNext('div').text
-                    like=like.replace("people follow this", "")
+                    follow=follow.replace("people follow this", "")
                 except:
                     follow="Not Found"
                 try:
