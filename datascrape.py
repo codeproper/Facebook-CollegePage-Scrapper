@@ -63,6 +63,10 @@ def scrape_data():
                 try:
                     opentime_icon=soup.find("img", {"src" : "https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/3qMMM3KK_wt.png"})
                     opentime=opentime_icon.findNext('div').text
+                    opentime = opentime.replace("Hours", "")
+                    opentime = opentime.replace("Now", "")
+                    opentime = opentime.replace("Open", "")
+                    opentime = opentime.replace("Closed", "")
                 except:
                     opentime="Not Found"
 
