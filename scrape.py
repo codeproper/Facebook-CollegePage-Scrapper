@@ -17,10 +17,6 @@ path= r'./test'
 if not os.path.exists(path):
     os.makedirs(path)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8859a759fce305696870875d04b8713a7a38e9ac
 ###DEFINE OPTIONS AND PATHS
 option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
