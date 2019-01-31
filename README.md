@@ -3,7 +3,9 @@ Using selenium webautomation tool, various informations of a facebook page is sc
 
 # How to execute
 
-1.Clone this repo 
+1.Clone this repository or download and extract the zip file.
+
+    git clone https://github.com/rabeenj007/Facebook-CollegePage-Scrapper
 
 2.Open the terminal in the same directory and install all the dependencies from requirments.txt
     
