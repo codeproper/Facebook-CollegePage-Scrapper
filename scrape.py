@@ -49,7 +49,7 @@ print("Done writing urls in url.csv file.. ")
 
 ####Open the url.csv file to begin scraping from pages and store the result in data.csv file####
 
-with open('url.csv') as csvfile:
+with open('./test/url.csv') as csvfile:
     urlreader = csv.reader(csvfile, delimiter=',', quotechar=',',quoting=csv.QUOTE_MINIMAL)
     with open('./test/data_'+ts+'.csv', 'w') as File:
         filewriter = csv.writer(File, delimiter=',',quoting=csv.QUOTE_MINIMAL)
