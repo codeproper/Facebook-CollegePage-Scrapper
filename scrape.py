@@ -9,8 +9,13 @@ from more_itertools import unique_everseen
 import argparse
 from selenium.common.exceptions import NoSuchElementException
 import time
+import os
 ts = time.time()
 ts = str(ts)
+
+path= r'./test'
+if not os.path.exists(path):
+    os.makedirs(path)
 
 ###DEFINE OPTIONS AND PATHS
 option = webdriver.ChromeOptions()
