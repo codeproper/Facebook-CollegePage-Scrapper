@@ -14,3 +14,7 @@ Using selenium webautomation tool, various informations of a facebook page is sc
 3.Open terminal on the location of cloned directory and run scrape.py
 
     python scrape.py
+
+4. To enable headless mode in Chrome 
+
+       python scrape.py --headless
