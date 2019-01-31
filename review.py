@@ -3,7 +3,7 @@ from time import sleep
 import csv
 import urllib.request
 from bs4 import BeautifulSoup
-from  more_itertools import unique_everseen
+from more_itertools import unique_everseen
 option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
 option.add_argument("--headless")
