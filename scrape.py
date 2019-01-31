@@ -132,7 +132,7 @@ with open('./test/url.csv') as csvfile:
         for row in urlreader:
             review_url = row[0]+"reviews"
             html = urllib.request.urlopen(review_url).read()
-            soup = BeautifulSoup(html, "lxml")
+            soup = BeautifulSoup(html, "html.parser")
             browser.get(review_url)
             review_data = soup.find_all("span", attrs={"class": "fcg"})
             reviews = soup.find_all("p")
