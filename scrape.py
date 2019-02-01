@@ -11,12 +11,6 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 import os
 
-#############
-
-timestamp = time.time()
-timestamp = str(timestamp)
-
-#### CREATING A TEST FILE TO STORE CSV FILE
 
 ###DEFINE OPTIONS AND PATHS
 
